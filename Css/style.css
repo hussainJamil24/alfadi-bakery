@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p, span {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu-container {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #B8001F;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.menu li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px ;
+    width: 40%;
+}
+
+.menu li h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu li  p {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.menu li span {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #B8001F;
+    width: fit-content;
+    padding: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .menu li h1 {
+        font-size: 24px;
+    }
+
+    .menu li p {
+        font-size: 14px;
+    }
+
+    .menu li span {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .menu li h1 {
+        font-size: 20px;
+    }
+
+    .menu li p {
+        font-size: 12px;
+    }
+
+    .menu li span {
+        font-size: 12px;
+    }
+
+}
